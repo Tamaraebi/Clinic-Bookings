@@ -40,7 +40,6 @@
             </thead>
         </table>
 
-
     </div>
 </div>
 @endsection

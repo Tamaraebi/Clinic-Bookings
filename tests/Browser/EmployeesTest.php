@@ -16,5 +16,6 @@ class EmployeesTest extends DuskTestCase
             $browser->visit(route('admin.employees.index'));
             $browser->assertRouteIs('admin.employees.index');
         });
+        
     }
 }

@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class UsersController extends Controller
+
 {
     public function index()
     {

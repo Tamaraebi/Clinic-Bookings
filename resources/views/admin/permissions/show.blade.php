@@ -35,7 +35,6 @@
 
         <nav class="mb-3">
             <div class="nav nav-tabs">
-
             </div>
         </nav>
         <div class="tab-content">

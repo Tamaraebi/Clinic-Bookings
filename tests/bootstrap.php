@@ -14,7 +14,6 @@ require_once __DIR__.'/../vendor/autoload.php';
 | this file as needed in order to help your test suite run quicker.
 |
 */
-
 $commands = [
     'config:cache',
     'event:cache',

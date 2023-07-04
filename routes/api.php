@@ -22,4 +22,5 @@ Route::group(['prefix' => 'v1', 'as' => 'api.', 'namespace' => 'Api\V1\Admin', '
 
     // Appointments
     Route::apiResource('appointments', 'AppointmentsApiController');
+    
 });

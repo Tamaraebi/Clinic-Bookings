@@ -42,7 +42,6 @@ class PermissionsController extends Controller
 
         return view('admin.permissions.edit', compact('permission'));
     }
-
     public function update(UpdatePermissionRequest $request, Permission $permission)
     {
         $permission->update($request->all());

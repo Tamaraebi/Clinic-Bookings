@@ -19,7 +19,6 @@ class UsersApiController extends Controller
 
         return new UserResource(User::with(['roles'])->get());
     }
-
     public function store(StoreUserRequest $request)
     {
         $user = User::create($request->all());

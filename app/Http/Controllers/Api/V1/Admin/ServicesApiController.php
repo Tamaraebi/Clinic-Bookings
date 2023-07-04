@@ -19,7 +19,6 @@ class ServicesApiController extends Controller
 
         return new ServiceResource(Service::all());
     }
-
     public function store(StoreServiceRequest $request)
     {
         $service = Service::create($request->all());

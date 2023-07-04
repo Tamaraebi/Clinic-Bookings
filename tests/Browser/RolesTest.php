@@ -16,5 +16,6 @@ class RolesTest extends DuskTestCase
             $browser->visit(route('admin.roles.index'));
             $browser->assertRouteIs('admin.roles.index');
         });
+        
     }
 }

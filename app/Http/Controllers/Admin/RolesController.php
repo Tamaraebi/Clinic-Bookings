@@ -39,7 +39,6 @@ class RolesController extends Controller
 
         return redirect()->route('admin.roles.index');
     }
-
     public function edit(Role $role)
     {
         abort_if(Gate::denies('role_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');

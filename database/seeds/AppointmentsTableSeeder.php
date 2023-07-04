@@ -14,3 +14,4 @@ class AppointmentsTableSeeder extends Seeder
         \App\Appointment::factory()->count(10)->create();
     }
 }
+

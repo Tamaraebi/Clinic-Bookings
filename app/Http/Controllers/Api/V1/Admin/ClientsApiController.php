@@ -28,7 +28,6 @@ class ClientsApiController extends Controller
             ->response()
             ->setStatusCode(Response::HTTP_CREATED);
     }
-
     public function show(Client $client)
     {
         abort_if(Gate::denies('client_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');

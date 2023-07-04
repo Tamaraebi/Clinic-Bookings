@@ -13,7 +13,6 @@ class AppointmentFactory extends Factory
      * @var string
      */
     protected $model = Appointment::class;
-
     /**
      * Define the model's default state.
      *

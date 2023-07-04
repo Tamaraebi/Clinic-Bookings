@@ -7,7 +7,6 @@ use App\Http\Controllers\Controller;
 
 class SystemCalendarController extends Controller
 {
-
     public function index()
     {
         $events = [];

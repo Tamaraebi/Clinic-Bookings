@@ -19,7 +19,6 @@ class PermissionsApiController extends Controller
 
         return new PermissionResource(Permission::all());
     }
-
     public function store(StorePermissionRequest $request)
     {
         $permission = Permission::create($request->all());

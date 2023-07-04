@@ -16,5 +16,6 @@ class AppointmentsTest extends DuskTestCase
             $browser->visit(route('admin.appointments.index'));
             $browser->assertRouteIs('admin.appointments.index');
         });
+        
     }
 }

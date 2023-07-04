@@ -62,7 +62,6 @@ class ServicesController extends Controller
 
         return view('admin.services.create');
     }
-
     public function store(StoreServiceRequest $request)
     {
         $service = Service::create($request->all());

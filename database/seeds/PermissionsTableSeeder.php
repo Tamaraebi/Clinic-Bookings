@@ -5,6 +5,7 @@ use Illuminate\Database\Seeder;
 
 class PermissionsTableSeeder extends Seeder
 {
+    
     public function run()
     {
         $permissions = [

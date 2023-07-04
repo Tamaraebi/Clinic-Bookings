@@ -14,3 +14,4 @@ class ServicesTableSeeder extends Seeder
         \App\Service::factory()->count(10)->create();
     }
 }
+

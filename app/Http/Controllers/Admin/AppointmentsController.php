@@ -75,7 +75,6 @@ class AppointmentsController extends Controller
 
         return view('admin.appointments.index');
     }
-
     public function create()
     {
         abort_if(Gate::denies('appointment_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');

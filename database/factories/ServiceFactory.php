@@ -13,7 +13,6 @@ class ServiceFactory extends Factory
      * @var string
      */
     protected $model = Service::class;
-
     /**
      * Define the model's default state.
      *

@@ -14,3 +14,4 @@ class ClientsTableSeeder extends Seeder
         \App\Client::factory()->count(10)->create();
     }
 }
+

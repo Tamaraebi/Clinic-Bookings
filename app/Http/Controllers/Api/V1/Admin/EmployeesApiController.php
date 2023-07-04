@@ -22,7 +22,6 @@ class EmployeesApiController extends Controller
 
         return new EmployeeResource(Employee::with(['services'])->get());
     }
-
     public function store(StoreEmployeeRequest $request)
     {
         $employee = Employee::create($request->all());

@@ -16,3 +16,4 @@ class PermissionRoleTableSeeder extends Seeder
         Role::findOrFail(2)->permissions()->sync($user_permissions);
     }
 }
+

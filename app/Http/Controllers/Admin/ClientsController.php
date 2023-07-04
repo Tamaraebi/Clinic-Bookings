@@ -58,7 +58,6 @@ class ClientsController extends Controller
 
         return view('admin.clients.index');
     }
-
     public function create()
     {
         abort_if(Gate::denies('client_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');

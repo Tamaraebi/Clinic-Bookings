@@ -5,7 +5,6 @@
     <div class="card-header">
         {{ trans('global.show') }} {{ trans('cruds.employee.title') }}
     </div>
-
     <div class="card-body">
         <div class="mb-2">
             <table class="table table-bordered table-striped">

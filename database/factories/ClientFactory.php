@@ -13,7 +13,6 @@ class ClientFactory extends Factory
      * @var string
      */
     protected $model = Client::class;
-
     /**
      * Define the model's default state.
      *

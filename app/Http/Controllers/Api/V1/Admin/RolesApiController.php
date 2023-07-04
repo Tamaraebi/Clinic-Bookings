@@ -19,7 +19,6 @@ class RolesApiController extends Controller
 
         return new RoleResource(Role::with(['permissions'])->get());
     }
-
     public function store(StoreRoleRequest $request)
     {
         $role = Role::create($request->all());

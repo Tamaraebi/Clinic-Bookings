@@ -23,6 +23,7 @@
                     </em>
                 @endif
             </div>
+            
             <div class="form-group {{ $errors->has('employee_id') ? 'has-error' : '' }}">
                 <label for="employee">{{ trans('cruds.appointment.fields.employee') }}</label>
                 <select name="employee_id" id="employee" class="form-control select2">

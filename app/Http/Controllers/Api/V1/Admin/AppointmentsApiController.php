@@ -29,7 +29,6 @@ class AppointmentsApiController extends Controller
             ->response()
             ->setStatusCode(Response::HTTP_CREATED);
     }
-
     public function show(Appointment $appointment)
     {
         abort_if(Gate::denies('appointment_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');

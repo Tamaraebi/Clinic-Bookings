@@ -10,6 +10,7 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 class Employee extends Model implements HasMedia
+
 {
     use SoftDeletes, InteractsWithMedia, HasFactory;
 
